@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   background: linear-gradient(#f0c27b,#4b1248);
+   color: beige;
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center; 
+}
+.alert-bg{
+    background-color:rgba(194, 65, 40, 0.988);
+    margin-top: 1rem;
+    padding: .5rem;
+    border: 1px solid rgba(92, 25, 25, 0.832);
+    display: none;
+}
+.login{
+    width: 90%;
+    text-align: center;
+}
+input,button,select{
+    width: 100%;
+    height: 2rem;
+    margin-top: .7rem;
+}
+.mybtn{
+    border: none;
+    color: beige;
+    background-color: peru;
+}
+.islem{
+    width: 90%;
+    display: none;
+    text-align: center;
+}
+.sifreunut{
+    text-align: center;
+    display: none;
+}
+.kredivade{
+    display: none;
+}

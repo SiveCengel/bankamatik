@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<div class="login">
+    <h2>ABC Bankasına Hoşgeldiniz</h2>
+    <input type="text" class="girilensifre" placeholder="Şifrenizi Giriniz">
+    <button class="girisyap mybtn">Giriş Yap</button>
+    <button class="sifreunuttum">Şifremi Unuttum</button>
+    <p class="alert-bg">Şifreniz Yanlış!</p>
+</div>
+<div class="sifreunut">
+    <h2>Güvenlik Sorusunu Cevaplayın</h2>
+    <h3>En sevdiğin Yemek</h3>
+    <input class="guvenlikinp" type="text" placeholder="Cevabı Girin" >
+    <button class="guvenlikbtn">Gönder</button>
+    <p class="guvenlikp"></p>
+</div>
+<div class="islem">
+    <h3>Hoşgeldiniz</h3>
+    <h4>Lütfen İşlem Seçiniz</h4>
+    <select class="secilenislem">
+        <option>Para Çek</option>
+        <option>Para Yatır</option>
+        <option>Kredi Çek</option>
+    </select>
+    <input type="text" class="girilentutar" placeholder="Tutar Giriniz!">
+    <p class="guncelbakiye">Kalan Bakiyeniz: </p>
+    <p class="guncelborc"></p>
+    <button class="islembtn mybtn">İşlem Yap</button>
+</div>
+<div class="kredivade">
+    <h2>Kredi Vadenizi Seçiniz!</h2>
+    <select class="krediay">
+        <option>3 Ay</option>
+        <option>6 Ay</option>
+        <option>12 Ay</option>
+    </select>
+    <p class="kredisonuc"></p>
+    <button class="mybtn kredicek">Kredi Seç</button>
+</div>
+
+
+   <script src="https://code.jquery.com/jquery-3.6.1.slim.min.js" integrity="sha256-w8CvhFs7iHNVUtnSP0YKEg00p9Ih13rlL9zGqvLdePA=" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</html>
